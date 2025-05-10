@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 function ContactUsSection() {
-  return (
-    <div>ContactUsSection</div>
-  )
+    return <div>ContactUsSection</div>;
 }
 
-export default ContactUsSection
+export default ContactUsSection;

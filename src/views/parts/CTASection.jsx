@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 function CTASection() {
-  return (
-    <div>CTASection</div>
-  )
+    return <div>CTASection</div>;
 }
 
-export default CTASection
+export default CTASection;
