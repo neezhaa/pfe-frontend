@@ -1,0 +1,29 @@
+{
+    "navbar": {
+      "about": "À propos",
+      "resources": "Ressources",
+      "courses": "Cours et TD",
+      "exams": "Examens",
+      "contact": "Contact",
+      "login": "Connexion",
+      "signup": "Inscription"
+    },
+    "language": {
+      "fr": "Français",
+      "ar": "العربية"
+    },
+      "hero": {
+      "title1": "Savoir partagé, ",
+      "title2": "réussite démultipliée",
+      "description": "Télécharge, explore, et partage des documents pour réussir ensemble vos examens de fin de module et de formation.",
+      "cta_primary": "Rejoignez-Nous",
+      "cta_secondary": "Explorez Plus",
+      "image_alt": "Étudiants collaborant sur la plateforme",
+      "floating_card1": "Nouveaux TD ajoutés",
+      "floating_card2": "Cours interactifs",
+      "floating_card3": "Ressources partagées"
+    },
+    "footer": {
+      "copyright": "Tous droits réservés"
+    }
+}
