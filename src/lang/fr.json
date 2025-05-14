@@ -23,6 +23,20 @@
         "floating_card2": "Cours interactifs",
         "floating_card3": "Ressources partagées"
     },
+    "about": {
+        "title": "À Propos de Nous",
+        "description": "Nous sommes une plateforme dédiée à l'échange de ressources académiques et examens déjà passés dans tous les centres OFPPT du Maroc. Notre mission est de faciliter l'accès à des documents d'étude de qualité pour tous les stagiaires.",
+        "cta": "En savoir plus"
+    },
+    "contact": {
+        "title": "Contactez-Nous",
+        "name": "Nom",
+        "email": "Email",
+        "message": "Message",
+        "submit": "Soumettre",
+        "helpTitle": "Comment pouvons-nous vous aider?",
+        "helpText": "Notre équipe est prête à répondre à vos questions et à vous apporter son soutien."
+    },
     "footer": {
         "copyright": "Tous droits réservés"
     }

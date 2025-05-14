@@ -49,12 +49,12 @@ function Navbar() {
                             {/* Liens de navigation */}
                             <ul className="flex flex-col lg:flex-row lg:space-x-8 lg:ml-6">
                                 <li className="border-b border-gray-100 lg:border-none">
-                                    <Link
-                                        to="/about"
+                                    <a
+                                        href="#about"
                                         className="block py-3 px-4 text-gray-700 hover:text-blue-600 hover:bg-gray-50 lg:hover:bg-transparent lg:p-0"
                                     >
                                         {t('navbar.about')}
-                                    </Link>
+                                    </a>
                                 </li>
 
                                 <li className="border-b border-gray-100 lg:border-none relative">
@@ -86,12 +86,12 @@ function Navbar() {
                                 </li>
 
                                 <li className="border-b border-gray-100 lg:border-none">
-                                    <Link
-                                        to="/contact"
+                                    <a
+                                        href="#contact"
                                         className="block py-3 px-4 text-gray-700 hover:text-blue-600 hover:bg-gray-50 lg:hover:bg-transparent lg:p-0"
                                     >
                                         {t('navbar.contact')}
-                                    </Link>
+                                    </a>
                                 </li>
                             </ul>
 
