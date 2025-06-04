@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { ChatBubbleOvalLeftEllipsisIcon } from '@heroicons/react/24/solid';
 
-const ContactUsSection = () => {
+const ContactUs = () => {
     const { t } = useTranslation();
 
     return (
@@ -91,4 +91,4 @@ const ContactUsSection = () => {
     );
 };
 
-export default ContactUsSection;
+export default ContactUs;

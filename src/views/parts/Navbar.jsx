@@ -114,12 +114,12 @@ function Navbar() {
                         </div>
 
                         <div className="relative">
-                            <Link 
-                                to="#upload" 
+                            <a 
+                                href="#upload" 
                                 className={`px-3 py-2 rounded-lg ${textColorClass} font-medium hover:opacity-80 transition-opacity ${hoverEffectClass}`}
                             >
                                 {t('navbar.upload')}
-                            </Link>
+                            </a>
                         </div>
 
                         <div 
@@ -145,11 +145,17 @@ function Navbar() {
                                     >
                                         {t('navbar.login')}
                                     </Link>
-                                    <Link
-                                        to="/about"
+                                    <a
+                                        href="#about"
                                         className="block py-3 px-5 text-gray-700 hover:bg-gray-50 transition-all font-medium border-t border-gray-100"
                                     >
                                         {t('navbar.about')}
+                                    </a>
+                                    <Link 
+                                        to="/contatc-us"
+                                        className="block py-3 px-5 text-gray-700 hover:bg-gray-50 transition-all font-medium"
+                                    >
+                                        {t('navbar.contact')}
                                     </Link>
                                     <button
                                         onClick={toggleLanguage}
@@ -224,12 +230,12 @@ function Navbar() {
                             </li>
                             
                             <li>
-                                <Link 
-                                    to="#upload" 
+                                <a 
+                                    href="#upload" 
                                     className="block py-3 px-4 text-gray-700 hover:bg-gray-50 rounded-lg font-medium"
                                 >
                                     {t('navbar.upload')}
-                                </Link>
+                                </a>
                             </li>
                             
                             <li>
@@ -251,11 +257,20 @@ function Navbar() {
                             </li>
                             
                             <li>
-                                <Link 
-                                    to="/about" 
+                                <a 
+                                    href="#about" 
                                     className="block py-3 px-4 text-gray-700 hover:bg-gray-50 rounded-lg font-medium"
                                 >
                                     {t('navbar.about')}
+                                </a>
+                            </li>
+
+                            <li>
+                                <Link 
+                                    to="/contact-us" 
+                                    className="block py-3 px-4 text-gray-700 hover:bg-gray-50 rounded-lg font-medium"
+                                >
+                                    {t('navbar.contact')}
                                 </Link>
                             </li>
                             
