@@ -8,11 +8,12 @@ export default function Hero() {
         <section className="relative h-screen flex items-center justify-center bg-gray-900 overflow-hidden pt-16">
             <div className="absolute inset-0">
                 <img
-                    src="/images/library-hero.jpg"
+                    src="https://media.istockphoto.com/id/639359406/photo/students-studying-in-college-library.jpg?s=612x612&w=0&k=20&c=8ItJkQbEDQPMRkjqxCCpCKIBThJ6dZ2HLWfwQ4Zj470="
                     alt="Library background"
                     className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900/90 to-gray-900/50"></div>
+
             </div>
 
             <div className="relative z-10 text-center px-5 w-full max-w-5xl mx-auto">
