@@ -5,6 +5,7 @@ import Navbar from '../parts/Navbar';
 import HeroSection from '../parts/HeroSection';
 import AboutUs from '../parts/AboutUs';
 import UploadSection from '../parts/UploadSection';
+import DownloadSection from '../parts/DownloadSection';
 import Footer from '../parts/Footer';
 
 function Home() {
@@ -29,6 +30,7 @@ function Home() {
         <>
             <Navbar />
             <HeroSection />
+            <DownloadSection/>
             <AboutUs />
             <UploadSection />
             <Footer />
